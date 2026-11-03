@@ -24,9 +24,10 @@ button{background:#0b5;color:#fff;border:0;border-radius:6px;margin-top:1em;font
 .small{font-size:.85em;color:#555}.warn{background:#fff4d6;padding:8px;border-radius:6px}a{color:#05a}.cb{width:auto}"""
 def page(title,body):
     return HTMLResponse(f"""<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="Work out when Payday Super is due for each pay run. 7 business days, weekends and state public holidays counted per ATO rules."><style>{CSS}</style></head>
+<title>{e(title)}</title><meta name="description" content="Work out when Payday Super is due for each pay run. 7 business days, weekends and state public holidays counted per ATO rules."><style>{CSS}</style><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b5'/%3E%3Ctext x='16' y='23' font-size='20' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E"></head>
 <body><p class="small"><a href="/">Payday Super due dates</a> · <a href="/sources">Sources</a> · <a href="/pro">Reminders Pro</a></p>{body}
-<p class="small">Not tax advice. Dates follow the ATO's published Payday Super rules (linked on <a href="/sources">Sources</a>); check the ATO if your situation is unusual. Holiday data covers {FIRST.year}-{LAST.year}.</p></body></html>""")
+<p class="small">Not tax advice. Dates follow the ATO's published Payday Super rules (linked on <a href="/sources">Sources</a>); check the ATO if your situation is unusual. Holiday data covers {FIRST.year}-{LAST.year}.</p>
+<p class="small">Payday Super due dates is made by <a href="https://kerbform.com">Kerbform</a>. <a href="https://kerbform.com/privacy.html">Privacy</a> · <a href="https://kerbform.com/terms.html">Terms</a> · <a href="mailto:hello@kerbform.com">hello@kerbform.com</a></p></body></html>""")
 FREQ={"weekly":7,"fortnightly":14,"monthly":0,"once":None}
 def nxt(d,f):
     if f=="monthly":
@@ -112,6 +113,10 @@ def pro():
 def sources():
     a="".join(f'<li><a href="{u}">{k}</a></li>' for k,u in E.ATO.items()); h="".join(f'<li><a href="{u}">{NAMES[k]}</a></li>' for k,u in SRC.items())
     return page("Sources",f"<h1>Sources</h1><h2>ATO Payday Super pages</h2><ul>{a}</ul><h2>State and territory public holidays</h2><ul>{h}</ul><p>Part-state holidays (like show days) are business days under the ATO rule, so we don't skip them.</p>")
+@app.get("/privacy")
+def privacy_redirect(): return RedirectResponse("https://kerbform.com/privacy.html",301)
+@app.get("/terms")
+def terms_redirect(): return RedirectResponse("https://kerbform.com/terms.html",301)
 @app.get("/health")
 def health(): return {"ok":True}
 @app.get("/metrics")
