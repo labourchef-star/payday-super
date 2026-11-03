@@ -19,7 +19,7 @@ def db():
         raw=psycopg.connect(URL,row_factory=dict_row)
         if SCH: raw.execute(f'create schema if not exists "{SCH}"'); raw.execute(f'set search_path to "{SCH}"')
     else:
-        raw=sqlite3.connect(os.environ.get("DB_PATH","/tmp/lienwaiver.db")); raw.row_factory=sqlite3.Row
+        raw=sqlite3.connect(os.environ.get("DB_PATH","/tmp/paydaysuper.db")); raw.row_factory=sqlite3.Row
     try: yield C(raw); raw.commit()
     finally: raw.close()
 ID="serial primary key" if PG else "integer primary key"

@@ -3,3 +3,8 @@
 {"at":"2026-11-04T08:06:21+13:00","step":"session_start","commit":null,"deploy_id":null}
 {"at":"2026-11-04T08:07:26+13:00","step":"read spec+sources+reference; git init; decided ATO rule: business day excludes whole-state holidays in ANY state","commit":null,"deploy_id":null}
 {"at":"2026-11-04T08:08:55+13:00","step":"holidays.py data 2026-2028 all 8 states entered with flags+sources","commit":null,"deploy_id":null}
+{"at":"2026-11-04T08:09:39+13:00","step":"engine + 17 engine tests pass (incl 5 ATO worked examples)","commit":"5906ea4","deploy_id":null}
+{"at":"2026-11-04T08:10:39+13:00","step":"schema written; found RESEND_API_KEY + send.kerbform.com sender already used by lien-waiver -> real email sending possible","commit":null,"deploy_id":null}
+{"at":"2026-11-04T08:11:52+13:00","step":"BLOCKED: preflight build_start exit 2 (seven_day_build_capacity FAIL, active=1). No build/deploy actions taken.","commit":"5906ea4","deploy_id":null}
+{"at":"2026-11-04T08:18:16+13:00","step":"CONTINUATION of active build build-payday-super-20261102 under owner approval t195u (vault human_approvals ha-continue-payday-super-20261104); preflight has no continue action","commit":"5906ea4","deploy_id":null}
+{"at":"2026-11-04T08:19:29+13:00","step":"app + 24 tests pass; pushed to github","commit":"5906ea4","deploy_id":null}
