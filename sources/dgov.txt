@@ -1,0 +1,172 @@
+Australian Public Holidays Dates Machine Readable Dataset [INACTIVE] - Dataset - Data.gov.au
+Skip to main content
+Log in
+Data.gov.au
+Datasets
+Organisations
+About
+Search Datasets...
+Search the Dataset Catalogue
+Advanced search
+Add query syntax to search
+Home
+Organisations
+Department of the Prime...
+Australian Public Holidays...
+Dataset
+Groups
+Activity Stream
+JSON
+RDF
+ISO19115-3 XML
+Australian Public Holidays Dates Machine Readable Dataset [INACTIVE]
+Created 24/02/2014
+Updated 16/01/2026
+JSON
+RDF
+ISO19115-3 XML
+Ask a question about this dataset
+This dataset is inactive.  The Department of the Prime Minister and Cabinet is no longer maintaining this dataset and no further updates will be released.
+You can find public holiday information on all state and territory government websites:
+https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-saving
+https://www.nsw.gov.au/about-nsw/public-holidays
+https://nt.gov.au/nt-public-holidays
+https://www.qld.gov.au/recreation/travel/holidays/public
+https://www.safework.sa.gov.au/resources/public-holidays
+https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays
+https://business.vic.gov.au/business-information/public-holidays
+https://www.wa.gov.au/service/employment/workplace-arrangements/public-holidays-western-australia
+If you are a federal, state or local government agency and would like to take ownership of this dataset for ongoing maintenance, please contact us.
+Files and APIs
+CSV
+Australian public holidays combined (2021-2025)
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Australian Public Holidays 2025
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Australian Public Holidays 2024
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Australian Public Holidays 2023
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+.csv
+Australian Public Holidays 2022
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Australian Public Holidays 2021
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Australian Public Holidays 2020
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Australian Public Holidays 2019
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Public Holidays 2017 - 2018
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Public Holidays 2016 - 2017
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Public Holidays 2015 - 2016
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+CSV
+Public Holidays 2014 - 2015
+Creative Commons Attribution 3.0 Australia
+Explore
+More information
+Download
+Tags
+public holidays
+Additional Info
+Field
+Value
+Title
+Australian Public Holidays Dates Machine Readable Dataset [INACTIVE]
+Language
+English
+Licence
+Creative Commons Attribution 3.0 Australia
+Landing Page
+https://data.gov.au/data/dataset/b1bc6077-dadd-4f61-9f8c-002ab2cdff10
+Contact Point
+Department of the Prime Minister and Cabinet
+webservices@pmc.gov.au
+Reference Period
+01/01/2019
+-
+31/12/2025
+Geospatial Coverage
+Australia
+Data Portal
+Data.gov.au
+Ask question about this dataset
+Your question will be sent to the publisher of the dataset.
+What would you like to ask about this dataset?
+*
+You can use
+Markdown formatting
+here
+Your name
+*
+Your email
+*
+Clear
+Send
+Organisation
+Department of the Prime Minister and Cabinet
+Prime Minister and Cabinet
+View organisation details
+License
+Creative Commons Attribution 3.0 Australia
+Data.gov.au
+About
+Privacy Policy
+Recent Developments
+Contact us
+Publishers
+Login
+User guide
+Developers
+CKAN Documentation
+Accessibility
+Copyright
+Disclaimers
+© Commonwealth of Australia.
+With the exception of the Commonwealth Coat of Arms
+and where otherwise noted, this work is licensed
+under the CC BY 4.0 license.

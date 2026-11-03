@@ -1,0 +1,5 @@
+{"at":"2026-11-02T08:40:00+13:00","step":"build registered, executor dispatched"}
+{"at":"2026-11-02T08:06:46+13:00","step":"executor started: read spec, directives, lien-waiver patterns","commit":null,"deploy_id":null}
+{"at":"2026-11-04T08:06:21+13:00","step":"session_start","commit":null,"deploy_id":null}
+{"at":"2026-11-04T08:07:26+13:00","step":"read spec+sources+reference; git init; decided ATO rule: business day excludes whole-state holidays in ANY state","commit":null,"deploy_id":null}
+{"at":"2026-11-04T08:08:55+13:00","step":"holidays.py data 2026-2028 all 8 states entered with flags+sources","commit":null,"deploy_id":null}
